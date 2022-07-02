@@ -18,6 +18,8 @@ public class Main {
             }
         }
         System.out.println("VOCÊ CONSEGUIU!");
+		System.out.println("DEU BOA!");
+		
     }
 
     public static void jogar(Rio rio, Barco barco) throws Exception {
