@@ -18,6 +18,7 @@ public class Main {
             }
         }
         System.out.println("VOCÊ CONSEGUIU!");
+		System.out.println("VOCÊ CONSEGUIU!");
     }
 
     public static void jogar(Rio rio, Barco barco) throws Exception {
@@ -25,7 +26,7 @@ public class Main {
                 "\n2 - Desembarcar" +
                 "\n3 - Atravessar");
         int acao = sc.nextInt();
-        if (acao == 1) {
+        if (acao == 2) {
             if (barco.passageiros.size() < 2) {
                 System.out.println(
                         "\nPossíveis passageiros:" +
